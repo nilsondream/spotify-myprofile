@@ -1,7 +1,7 @@
 {
   "name": "spotify-profile",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aplicación web para visualizar datos personalizados de Spotify",
   "main": "index.js",
   "engines": {
     "node": "14.15.0"
