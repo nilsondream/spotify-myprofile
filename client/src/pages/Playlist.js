@@ -114,7 +114,7 @@ const Playlist = () => {
                                 <h1 className="header__name">{playlist.name}</h1>
                                 <p className="header__meta">
                                     {playlist.followers.total ? (
-                                        <span>{playlist.followers.total} {`follower${playlist.followers.total !== 1 ? 's' : ''}`}</span>
+                                        <span>{playlist.followers.total} {`seguidor${playlist.followers.total !== 1 ? 'es' : ''}`}</span>
                                     ) : null}
                                     <span>{playlist.tracks.total} {`pista${playlist.tracks.total !== 1 ? 's' : ''}`}</span>
                                 </p>
