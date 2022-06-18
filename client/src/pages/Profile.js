@@ -46,7 +46,7 @@ const Profile = () => {
                   <span>{playlists.total} Playlist{playlists.total !== 1 ? 's' : ''}</span>
                 )}
                 <span>
-                  {profile.followers.total} Follower{profile.followers.total !== 1 ? 's' : ''}
+                  {profile.followers.total} Seguidor{profile.followers.total !== 1 ? 'es' : ''}
                 </span>
               </p>
             </div>
